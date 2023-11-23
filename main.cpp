@@ -4,12 +4,14 @@ using namespace std;
 
 int main()
 {
-    int A{}, B{};
+    int A{}, B{}, C{};
     cout << "\nВведіть A: ";
     cin >> A;
     cout << "\nВведіть B: ";
     cin >> B;
-    cout << "\n Істинність твердження: " << boolalpha << (a > 2 && b >= 3) << endl;
+    cout << "\nВведіть С: ";
+    cin >> С;
+    cout << "\n Істинність твердження: " << boolalpha << (a > 5 && b >= 7) << endl;
     system("pause");
     return 0;
 }
